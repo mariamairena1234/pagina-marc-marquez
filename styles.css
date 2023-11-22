@@ -1,0 +1,220 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background image for the entire page */
+body {
+  background-image: url('motorcycle-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: FFF;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: red;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Style links */
+a {
+  color: #0078d4; /* Blue color for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style the main content container */
+.container {
+  background-color: red;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add styles for specific elements on your website */
+
+/* Example for a motorcycle image */
+.motorcycle-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Example for a motorcycle description */
+.motorcycle-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Footer styles */
+footer {
+  background-color: red;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style social media links in the footer */
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style copyright text in the footer */
+.copyright {
+  font-size: 12px;
+}
+ 
+ * {
+	padding:0;
+	margin:0;
+}
+
+header {
+	text-align:center;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:24px;
+	margin:20px;
+}
+
+hr {
+	width:600px;
+	height:3px;
+	margin:auto;
+}
+#Menu {
+	background-color:red;
+    width: 480px;
+    height:20px;
+    margin: auto;
+    }
+
+
+
+ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	
+	
+	}
+	
+/* Estilo  barra principal */
+
+body{
+  background: #e4e4e4;
+  font-family: 'Raleway';
+  font-size: 14px;
+}
+
+.navegacion{
+  width: 100%;
+}
+
+.navegacion nav{
+  width: 90%;
+  max-width: 1100px;
+  background: #2D3447;
+  margin: 40px auto;
+}
+
+.navegacion nav ul{
+  list-style: none;
+  position: relative;
+}
+
+.navegacion nav > ul > li{
+  display: inline-block;
+}
+
+.navegacion nav > ul > li > a{
+  color: red;
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+}
+
+.navegacion nav > ul > li > a span{
+  font-size: 20px;
+  position: absolute;
+  bottom: -8px;
+  display: none;
+}
+
+.navegacion nav > ul > li:hover span{
+  display: block;
+}
+
+.navegacion nav ul li .submenu{
+  background: #fff;
+  padding: 20px;
+  position: absolute;
+  display: none;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+}
+
+.navegacion nav ul li:hover .submenu{
+  display: flex;
+}
+
+.navegacion nav ul li .submenu .submenu-items{
+  margin: 0 20px;
+}
+
+.navegacion nav ul li .submenu .submenu-items p{
+  font-weight: 600;
+  width: 110px;
+  display: block;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #565656;
+  margin-bottom: 10px;
+}
+
+.navegacion nav ul li .submenu .submenu-items a{
+  color: red;
+  text-decoration: none;
+  margin: 6px 0;
+  display: block;
